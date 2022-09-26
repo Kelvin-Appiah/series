@@ -1,1 +1,16 @@
+.section {
+  margin: 2rem 6rem;
+}
 
+.title {
+  text-align: center;
+  color: rgb(0, 0, 165);
+  font-size: 3rem;
+}
+
+.line {
+  width: 8rem;
+  height: 0.25rem;
+  background-color: rgb(136, 144, 255);
+  margin: 0 auto;
+}

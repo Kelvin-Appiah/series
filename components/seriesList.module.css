@@ -1,0 +1,9 @@
+.seriesContainer {
+  margin: 0 1.5rem 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 4rem;
+
+  /*   border: 1px solid yellow; */
+}

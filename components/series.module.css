@@ -1,0 +1,53 @@
+.seriesItem {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 2px 2px 10px #000; */
+  /*  border: 1px solid red; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem 0;
+}
+
+.header h1 {
+  color: rgb(0, 0, 165);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.header h3 {
+  color: blue;
+  background-color: rgba(136, 144, 255, 0.25);
+  padding: 0.2rem;
+}
+
+.summary {
+  margin-bottom: 1.5rem;
+  line-height: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.btn {
+  padding: 0.5rem;
+  border: 1px solid rgb(0, 0, 165);
+  font-size: medium;
+  font-weight: 600;
+  background-color: transparent;
+  color: rgb(86, 97, 255);
+  transition: all 0.25s;
+}
+
+.btn:hover {
+  border: 1px solid #fff;
+  background-color: rgb(86, 97, 255);
+  color: #fff;
+}
+
+.readAllBtn {
+  background-color: transparent;
+  color: gray;
+  border: none;
+}
